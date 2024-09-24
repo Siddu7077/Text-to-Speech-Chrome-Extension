@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech Translator</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Translate & Speak</h1>
+        <div id="status" class="status">Please select some text.</div>
+
+        <div class="dropdown-container">
+            <label for="language-dropdown">Select Language:</label>
+            <select id="language-dropdown" class="dropdown">
+                <option value="hi-IN">Hindi</option>
+                <option value="te-IN">Telugu</option>
+                <option value="en-GB">English (UK)</option>
+                <option value="es-ES">Spanish</option>
+                <option value="fr-FR">French</option>
+            </select>
+        </div>
+
+        <button id="speak-button" class="speak-btn">Speak</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
